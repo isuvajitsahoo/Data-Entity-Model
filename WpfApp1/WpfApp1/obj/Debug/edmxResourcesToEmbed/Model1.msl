@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Training_19Sep18_PuneModelStoreContainer" CdmEntityContainer="Training_19Sep18_PuneEntities">
+    <EntitySetMapping Name="Person_160918">
+      <EntityTypeMapping TypeName="Training_19Sep18_PuneModel.Person_160918">
+        <MappingFragment StoreEntitySet="Person_160918">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
